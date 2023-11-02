@@ -157,11 +157,13 @@ main .container .end-main *{
 footer{
     padding-top:5px;
     background-color: #23272a;
+    color:white;
+}
+.footer-top-main-row{
+    margin:40px 0px;
 }
 
-.header-top{
-    padding:20px 0;
-}
+
 .footer-top hr{
     margin-top:10px;
     margin-bottom:10px;
@@ -170,8 +172,21 @@ footer{
 .footer-bottom .sing-container{
     display:flex;
     justify-content: space-between;
-
     padding:20px 0;
+}
+footer .my-row .my-col-1-4>*:first-child{
+    color:#7289da;
+    margin-bottom: 30px;
+}
+
+.country{
+    width:30px;
+}
+footer .footer-top .my-row ul li{
+    padding:0;
+    list-style-type: none;
+    margin: 10px 0px;
+
 }
 
 /*
@@ -183,25 +198,29 @@ footer{
     height:60px;
     background-color: #ADD8E6;
 }
+*/
+/*
 .debug .header-top .my-row{
     background-color:goldenrod;
 }
-
+*/
+/*
 .debug .header-top .my-row > *{
     border: 1px dashed black;
 }
-
+*/
+/*
 .debug .header-bottom{
     background-color:blue
 }
-
+*/
+/*
 .debug .header-bottom .jumbotron{
     background-color:fuchsia;
     border: 1px dashed black;
     min-height: 400px;
 }
 */
-
 /*
 .debug main section .my-col-3-5{
     background-color: #ADD8E6;
@@ -223,6 +242,8 @@ footer{
     min-height: 600px;
 }
 */
+
+/*
 .debug .footer-top-main-row >*{
     border: 1px dashed black;
 }
@@ -241,13 +262,19 @@ footer{
   border:1px dashed white;
   min-height: 400px;
 }
+
+*/
+/*
 .debug .sing-container{
     background-color: aquamarine;
     border: 1px dashed black;
 }
+*/
 
+/*
 .debug .sing-container > *{
     background-color: pink;
     border:1px dashed black;
     padding:10px;
 }
+*/
