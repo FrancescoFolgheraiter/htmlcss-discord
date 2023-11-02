@@ -16,12 +16,17 @@ html{
 GENERAL
 */
 .bottone{
+    display: inline-block;
     background-color: white;
     border:1px sollid white;
     border-radius: 20px;
     padding:10px;
     text-decoration: none;
     color:black
+}
+.small{
+    font-size: 0.8em;
+    padding:8px;
 }
 
 .grey-button{
@@ -55,10 +60,16 @@ GENERAL
 
 .my-col-1-6{
     width:calc((100% / 6) * 1);
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .my-col-2-3{
     width:calc((100% / 6) * 4);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .my-col-3-4{
@@ -87,6 +98,10 @@ GENERAL
 .header-top .main-menu-container > .main-nav ul li{
     display:inline-block;
     margin:0 10px;
+    
+}
+.header-top .main-menu-container > .main-nav ul li a{
+    text-decoration: none;
     color:white;
 }
 
@@ -106,6 +121,14 @@ GENERAL
     color:white;
     text-align: center;
     margin:25px;
+}
+.header-bottom .jumbotron > h1{
+    font-size: 2.5em;
+}
+
+.header-bottom .jumbotron > p{
+    line-height: 25px;
+    margin-bottom: 30px;
 }
 .jumbotron{
     padding:20px;
@@ -129,18 +152,27 @@ GENERAL
     margin:0 40px;
 }
 
-main .my-col-2-5 h2{
+main h2{
     margin:20px 0;
+    font-size: 2.2em;
+}
+main p{
+    line-height: 30px;
 }
 
+main .my-row img{
+    width:100%;
+}
 
 .main-section-row{
     padding:40px 0;
 }
 .footer-main{
     background-image: url(../img/stars.svg);
-    padding:10px;
-    flex-basis:100%;
+    padding-top:40px;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
 
 main > section:nth-child(even){
@@ -179,8 +211,14 @@ footer .my-row .my-col-1-4>*:first-child{
     margin-bottom: 30px;
 }
 
+.lang{
+    padding-bottom:20px;
+}
 .country{
-    width:30px;
+    width:20px;
+}
+footer .my-row .brands>*{
+    margin-right:10px;
 }
 footer .footer-top .my-row ul li{
     padding:0;
